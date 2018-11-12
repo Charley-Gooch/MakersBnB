@@ -1,20 +1,64 @@
+@font-face {
+    font-family: titleFont;
+    src: url("../resources/DobkinScript.ttf");
+}
+
 h1{
+    font-size: 1.5cm;
+    color: white;
     text-align: left;
-    margin-left: 25%;
-    font-family: "Georgia", serif;
+    font-family: titleFont;
+    margin-left: 10%;
+    position: fixed;
+    background-color: rgba(125, 4, 26, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+    border-color: #d4d3d7;
+    border-style: ridge;
 }
 
 body{
     text-align: center;
     vertical-align: middle;
+    background-image:  url("../resources/background.jpg");
 }
 
 div#buttons{
-    background-color: rgb(125, 4, 26);
+    background-color: rgba(125, 4, 26, 0.5);
     width: 40%;
+    top: 35%;
+    left: 50%;
     margin: auto;
     color: white;
     content: inherit;
-    border-radius: 25px;
-    padding: 20px; 
+    border-radius: 20px;
+    padding: 15px;
+    position: fixed;
+    margin-left: -20%;
+    border-color: #d4d3d7;
+    border-style: ridge;
+}
+
+button{
+    padding: 4px;
+    width: 1in;
+    border-radius: 20px;
+    border-color: #d4d3d7;
+    border-style: ridge;
+}
+
+div#info{
+    background-color: rgba(125, 4, 26, 0.5);
+    width: 40%;
+    top: 65%;
+    left: 50%;
+    margin: auto;
+    color: white;
+    content: inherit;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    margin-left: -20%;
+    border-color: #d4d3d7;
+    border-style: ridge;
 }
