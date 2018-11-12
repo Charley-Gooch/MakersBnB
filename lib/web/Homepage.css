@@ -15,4 +15,6 @@ div#buttons{
     margin: auto;
     color: white;
     content: inherit;
+    border-radius: 25px;
+    padding: 20px; 
 }
