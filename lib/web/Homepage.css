@@ -3,13 +3,15 @@ h1{
     font-family: "Georgia", serif;
 }
 
-div#bodyText{
-    width: 50%;
-    left: 50%;
-    margin-left: auto;
-    margin-right: auto;
+body{
     text-align: center;
-    background-color: darkblue;
+    vertical-align: middle;
+}
+
+div#buttons{
+    width: 40%;
+    margin: auto;
+    background-color: rgb(125, 4, 26);
     color: white;
-    font-family: "Optima", sans-serif;
+    content: inherit;
 }
