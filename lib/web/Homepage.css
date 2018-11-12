@@ -1,5 +1,6 @@
 h1{
-    text-align: center;
+    text-align: left;
+    margin-left: 25%;
     font-family: "Georgia", serif;
 }
 
@@ -9,9 +10,9 @@ body{
 }
 
 div#buttons{
+    background-color: rgb(125, 4, 26);
     width: 40%;
     margin: auto;
-    background-color: rgb(125, 4, 26);
     color: white;
     content: inherit;
 }
