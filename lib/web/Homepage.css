@@ -1,10 +1,15 @@
 h1{
     text-align: center;
-    font-family: "Optima", sans-serif;
+    font-family: "Georgia", serif;
 }
 
 div#bodyText{
-    background-color: aquamarine;
+    width: 50%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    font-family: "Georgia", serif;
+    background-color: darkblue;
+    color: white;
+    font-family: "Optima", sans-serif;
 }
